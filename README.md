@@ -135,3 +135,31 @@ UNPIVOT - Unpivot: służy do przekształcania danych z formatu kolumnowego na f
 ROW_NUMBER(), RANK(), DENSE_RANK(), NTILE() - funkcje okienne służące do przypisywania wartości w oparciu o porządek wierszy. <br><br>
 
 OVER - Nad: klauzula używana z funkcjami okiennymi do określenia zakresu wierszy, na których ma działać funkcja. <br><br>
+
+** USELESS:
+
+OFFSET - Przesunięcie: określa, od którego wiersza zaczynać zwracanie wyników. <br><br>
+
+CHARACTER SET - Zestaw znaków: określa zestaw znaków dla tabeli lub kolumny. <br><br>
+
+COLLATE - Porządek sortowania: określa porządek sortowania dla tabeli lub kolumny. <br><br>
+
+DEFAULT - Domyślna: wartość, która jest ustawiana dla kolumny, gdy nie jest podawana żadna inna wartość. <br><br>
+
+SUBSTRING - Podciąg: funkcja używana do wyciągania części ciągu znaków. <br><br>
+
+CAST - Rzutowanie: konwertuje jedno dane na inny typ danych. <br><br>
+
+NULLIF - Jeśli null: zwraca null, jeśli dwie wartości są równe; w przeciwnym razie zwraca pierwszą wartość. <br><br>
+
+OUTER APPLY i CROSS APPLY - stosowane głównie w SQL Server, służą do łączenia tabeli z wynikami funkcji tablicowej. <br><br>
+
+CTE (Common Table Expressions) - Wspólne wyrażenia tabelaryczne: używane do definiowania tymczasowych wyników, które można następnie odwoływać w głównym zapytaniu. <br><br>
+
+PIVOT - Pivot: służy do transformacji danych z formatu wierszowego na format kolumnowy. <br><br>
+
+UNPIVOT - Unpivot: służy do przekształcania danych z formatu kolumnowego na format wierszowy. <br><br>
+
+ROW_NUMBER(), RANK(), DENSE_RANK(), NTILE() - funkcje okienne służące do przypisywania wartości w oparciu o porządek wierszy. <br><br>
+
+OVER - Nad: klauzula używana z funkcjami okiennymi do określenia zakresu wierszy, na których ma działać funkcja. <br><br>
