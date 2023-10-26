@@ -4,7 +4,8 @@
 3. ALTER TABLE nazwaTablei MODIFY COLUMN id INT NOT NULL AUTO_INCREMENT; <br><br>
 
 
-# SELECT - Wybierz: służy do wybierania kolumn, które mają zostać zwrócone w wyniku zapytania. <br><br>
+# SELECT 
+Wybierz: służy do wybierania kolumn, które mają zostać zwrócone w wyniku zapytania. <br><br>
 
 # FROM - Z: określa tabelę źródłową, z której mają zostać zwrócone dane. <br><br>
 
