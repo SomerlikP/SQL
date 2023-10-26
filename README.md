@@ -138,8 +138,7 @@ OVER - Nad: klauzula używana z funkcjami okiennymi do określenia zakresu wiers
 
 <br><br><br>
 
-**
-USELESS:
+# USELESS:
 
 OFFSET - Przesunięcie: określa, od którego wiersza zaczynać zwracanie wyników. <br><br>
 
