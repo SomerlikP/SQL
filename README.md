@@ -1,7 +1,7 @@
 # Resetowanie ID:
 1. ALTER TABLE nazwaTablei MODIFY COLUMN id INT NOT NULL;
 2. SET @counter = 0; UPDATE nazwaTabeli SET id = (@counter:=@counter+1);
-3. ALTER TABLE nazwaTablei MODIFY COLUMN id INT NOT NULL AUTO_INCREMENT;
+3. ALTER TABLE nazwaTablei MODIFY COLUMN id INT NOT NULL AUTO_INCREMENT; <br><br>
 
 
 SELECT - Wybierz: służy do wybierania kolumn, które mają zostać zwrócone w wyniku zapytania. <br><br>
