@@ -1,0 +1,23 @@
+SELECT * FROM ksiazki ORDER BY tytul ASC;
+
+SELECT * FROM ksiazki ORDER BY cena DESC LIMIT 1;
+
+SELECT * FROM zamowienia WHERE status LIKE 'wyslano';
+
+SELECT * FROM klienci WHERE nazwisko LIKE 'Rutkowski';
+
+SELECT * FROM ksiazki WHERE tytul LIKE '%PHP%';
+
+SELECT * FROM zamowienia ORDER BY data DESC;
+
+
+SELECT klienci.imie, klienci.nazwisko, zamowienia.idzamowienia, zamowienia.data FROM klienci, zamowienia WHERE klienci.idklienta = zamowienia.idklienta;
+
+SELECT k.imie, k.nazwisko, z.idzamowienia, z.data FROM klienci AS k, zamowienia AS z WHERE k.idklienta = z.idklienta;
+
+
+SELECT klienci.imie, klienci.nazwisko FROM klienci, zamowienia WHERE zamowienia.idksiazki = 2 AND zamowienia.idklienta = klienci.idklienta;
+
+SELECT ksiazki.tytul, ksiazki.imieautora, ksiazki.nazwiskoautora FROM ksiazki, zamowienia WHERE zamowienia.idklienta = 2 AND ksiazki.idksiazki = zamowienia.idksiazki;
+
+SELECT klienci.imie, klienci.nazwisko, zamowienia.idzamowienia, zamowienia.data, zamowienia.status, ksiazki.tytul FROM klienci, ksiazki, zamowienia WHERE klienci.nazwisko = 'Rutkowski' AND klienci.idklienta = zamowienia.idklienta AND zamowienia.idksiazki = ksiazki.idksiazki ORDER BY zamowienia.data DESC;
