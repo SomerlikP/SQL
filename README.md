@@ -136,7 +136,10 @@ ROW_NUMBER(), RANK(), DENSE_RANK(), NTILE() - funkcje okienne służące do przy
 
 OVER - Nad: klauzula używana z funkcjami okiennymi do określenia zakresu wierszy, na których ma działać funkcja. <br><br>
 
-** USELESS:
+<br><br><br>
+
+**
+USELESS:
 
 OFFSET - Przesunięcie: określa, od którego wiersza zaczynać zwracanie wyników. <br><br>
 
