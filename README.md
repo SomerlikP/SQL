@@ -259,89 +259,89 @@ Nad: klauzula używana z funkcjami okiennymi do określenia zakresu wierszy, na 
 
 
 # Operacje na tabelach i bazach danych:
-CREATE DATABASE - Utwórz bazę danych.
-DROP DATABASE - Usuń bazę danych.
-CREATE TABLE - Utwórz tabelę.
-ALTER TABLE - Modyfikuj tabelę.
-DROP TABLE - Usuń tabelę.
-CREATE INDEX - Utwórz indeks.
+CREATE DATABASE - Utwórz bazę danych. <br>
+DROP DATABASE - Usuń bazę danych. <br>
+CREATE TABLE - Utwórz tabelę. <br>
+ALTER TABLE - Modyfikuj tabelę. <br>
+DROP TABLE - Usuń tabelę. <br>
+CREATE INDEX - Utwórz indeks. <br>
 DROP INDEX - Usuń indeks.
 
 # Operacje na rekordach:
-INSERT INTO - Wstaw do.
-UPDATE - Aktualizuj.
+INSERT INTO - Wstaw do. <br>
+UPDATE - Aktualizuj. <br>
 DELETE - Usuń.
 
 # Selekcja i filtrowanie danych:
-SELECT - Wybierz.
-FROM - Z.
-WHERE - Gdzie.
-DISTINCT - Unikalne.
-GROUP BY - Grupuj według.
-HAVING - Mając.
-ORDER BY - Sortuj według.
-LIMIT - Limit.
+SELECT - Wybierz. <br>
+FROM - Z. <br>
+WHERE - Gdzie. <br>
+DISTINCT - Unikalne. <br>
+GROUP BY - Grupuj według. <br>
+HAVING - Mając. <br>
+ORDER BY - Sortuj według. <br>
+LIMIT - Limit. <br>
 OFFSET - Przesunięcie.
 
 # Operatory logiczne:
-AND - I.
-OR - Lub.
-NOT - Nie.
-IN - W.
-LIKE - Jak.
-BETWEEN - Pomiędzy.
-IS NULL - Jest NULL.
+AND - I. <br>
+OR - Lub. <br>
+NOT - Nie. <br>
+IN - W. <br>
+LIKE - Jak. <br>
+BETWEEN - Pomiędzy. <br>
+IS NULL - Jest NULL. <br>
 IS NOT NULL - Nie jest NULL.
 
 # Operacje na ciągach znaków:
-UPPER - Wielkie litery.
-LOWER - Małe litery.
-TRIM - Usuń białe znaki.
-SUBSTRING - Podciąg.
+UPPER - Wielkie litery. <br>
+LOWER - Małe litery. <br>
+TRIM - Usuń białe znaki. <br>
+SUBSTRING - Podciąg. <br>
 LENGTH - Długość.
 
 # Funkcje matematyczne:
-ROUND - Zaokrąglenie.
-AVG - Średnia.
-SUM - Suma.
-COUNT - Liczba.
-MIN - Minimum.
+ROUND - Zaokrąglenie. <br>
+AVG - Średnia. <br>
+SUM - Suma. <br>
+COUNT - Liczba. <br>
+MIN - Minimum. <br>
 MAX - Maksimum.
 
 # Operacje na kolumnach:
-ALTER TABLE ... MODIFY COLUMN - Modyfikuj kolumnę.
-AUTO_INCREMENT - Autoinkrementacja.
-PRIMARY KEY - Klucz główny.
-FOREIGN KEY - Klucz obcy.
-CHECK - Sprawdź.
+ALTER TABLE ... MODIFY COLUMN - Modyfikuj kolumnę. <br>
+AUTO_INCREMENT - Autoinkrementacja. <br>
+PRIMARY KEY - Klucz główny. <br>
+FOREIGN KEY - Klucz obcy. <br>
+CHECK - Sprawdź. <br>
 DEFAULT - Domyślna.
 
 # Złączenia tabel:
-JOIN - Dołącz.
-INNER JOIN - Wewnętrzne dołączenie.
-LEFT JOIN (lub LEFT OUTER JOIN) - Lewe dołączenie.
-RIGHT JOIN (lub RIGHT OUTER JOIN) - Prawe dołączenie.
+JOIN - Dołącz. <br>
+INNER JOIN - Wewnętrzne dołączenie. <br>
+LEFT JOIN (lub LEFT OUTER JOIN) - Lewe dołączenie. <br>
+RIGHT JOIN (lub RIGHT OUTER JOIN) - Prawe dołączenie. <br>
 FULL JOIN (lub FULL OUTER JOIN) - Pełne dołączenie.
 
 # Funkcje zaawansowane:
-CASE - Przypadek.
-CAST - Rzutowanie.
-COALESCE - Koalescencja.
-NULLIF - Jeśli null.
-PIVOT - Pivot.
-UNPIVOT - Unpivot.
-CTE (Common Table Expressions) - Wspólne wyrażenia tabelaryczne.
-WITH - Z.
+CASE - Przypadek. <br>
+CAST - Rzutowanie. <br>
+COALESCE - Koalescencja. <br>
+NULLIF - Jeśli null. <br>
+PIVOT - Pivot. <br>
+UNPIVOT - Unpivot. <br>
+CTE (Common Table Expressions) - Wspólne wyrażenia tabelaryczne. <br>
+WITH - Z. <br>
 ROW_NUMBER(), RANK(), DENSE_RANK(), NTILE() - funkcje okienne.
 
 # Dodatkowe operacje:
-CHARACTER SET - Zestaw znaków.
-COLLATE - Porządek sortowania.
-INDEX - Indeks.
-DATE - Data.
-TIMESTAMP - Znacznik czasu.
-UNION - Unia.
-UNION ALL - Cała unia.
+CHARACTER SET - Zestaw znaków. <br>
+COLLATE - Porządek sortowania. <br>
+INDEX - Indeks. <br>
+DATE - Data. <br>
+TIMESTAMP - Znacznik czasu. <br>
+UNION - Unia. <br>
+UNION ALL - Cała unia. <br>
 EXISTS - Istnieje.
 
 # RESETOWANIE ID
